@@ -1,0 +1,40 @@
+{
+    "quantity_discounts": [
+        {"min_quantity": 3, "percent": 3},
+        {"min_quantity": 5, "percent": 5},
+        {"min_quantity": 10, "percent": 10}
+    ],
+
+    "weight_discounts": [
+        {"min_weight": 5, "percent": 2},
+        {"min_weight": 10, "percent": 5}
+    ],
+
+    "category_discounts": {
+        "household_essentials": 40,
+        "bath_and_body": 20,
+        "dairy": 10,
+        "electronics": 35
+    },
+
+    "combo_discounts": [
+        {
+            "name": "Breakfast Combo",
+            "items": ["milk", "bread"],
+            "discount_percent": 5
+        },
+        {
+            "name": "Snack Combo",
+            "items": ["chips", "softdrink"],
+            "discount_percent": 7
+        },
+        {
+            "name": "Tea Time Combo",
+            "items": ["tea", "biscuits"],
+            "discount_percent": 6
+        }
+    ]
+}
+
+
+
